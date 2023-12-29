@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SuraItemClickLiso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/home_background"
+    tools:context=".ui.Home.Quran.SuraDetailsActivity">
+
+    <TextView
+        android:id="@+id/sura_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="الفاتحة"
+        android:layout_marginTop="20dp"
+        style="@style/islamy_tv"
+        />
+    <ImageView
+        android:id="@+id/ic_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ic_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+
+
+        />
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/sura_details_recycler_view"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:elevation="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight_percent="0.8"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/sura_title_text"
+    app:layout_constraintWidth_percent="0.8"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    android:orientation="vertical"
+    style="@style/background_recycler_view"
+    android:padding="8dp"
+
+    tools:listitem="@layout/item_verse"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

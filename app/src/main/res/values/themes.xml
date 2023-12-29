@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IslamyAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#B7935F</item>
+    </style>
+
+
+    <style name="Theme.IslamyAPP" parent="Base.Theme.IslamyAPP" />
+    <style name="home_background">
+        <item name="android:background">@drawable/main_background</item>
+    </style>
+    <style name="bottom_navigation_style">
+        <item name="android:background">@color/primary_color</item>
+        <item name="iconSize">32dp</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemIconSize">38dp</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+
+    </style>
+
+    <style name="islamy_tv">
+        <item name="android:text">Islamy</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+
+    </style>
+    <style name="splash_image">
+        <item name="android:src">@drawable/splash_image</item>
+    </style>
+
+    <style name="background_recycler_view">
+        <item name="android:background">@drawable/sura_details_bg</item>
+    </style>
+    <style name="sura_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">27dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="ic_back">
+        <item name="android:src">@drawable/back</item>
+    </style>
+    <style name="view_background">
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <style name="body_sebha">
+        <item name="android:src">@drawable/body_sebha_logo</item>
+    </style>
+    <style name="head_sebha">
+        <item name="android:src">@drawable/head_sebha_logo</item>
+    </style>
+    <style name="background_convert_tv">
+        <item name="android:background">@drawable/count_background_shape</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="background_count_tv">
+        <item name="android:background">@drawable/count_background_shape</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="radio_background">
+        <item name="android:src">@drawable/radio_img</item>
+    </style>
+    <style name="VerseTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
